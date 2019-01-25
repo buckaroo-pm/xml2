@@ -125,3 +125,9 @@ xstc/Makefile
 xstc/Makefile.in
 xstc/Tests
 xstc/xsts-*.tar.gz
+.buckd
+buck-out
+.buckconfig.d
+.buckconfig.local
+buckaroo
+buckaroo_macros.bzl

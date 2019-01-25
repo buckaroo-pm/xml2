@@ -1,0 +1,17 @@
+manifest = "3ef99f99b41ac9238871c380175b9d78fe05fc4a0058e8d74f6cbb29485eed6f"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/madler-zlib"
+target = "//:zlib"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/xz"
+target = "//src/liblzma:lzma"
+
+[lock."github.com/buckaroo-pm/madler-zlib"]
+versions = [ "branch=master" ]
+revision = "906f727175ca6a7f8943e375467d6e461a55b68d"
+
+[lock."github.com/buckaroo-pm/xz"]
+versions = [ "branch=master" ]
+revision = "593cc1510a5b0f62d0d2167bdd57d36182a0cf35"
